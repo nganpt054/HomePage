@@ -1,0 +1,42 @@
+function Navbar(){
+    return(
+        <div className="navbar">
+          <div className="header-navbar">
+            <a className="header-navbar__name" href={{ href: "#" }}>
+              <p>Hekto</p>
+            </a>
+
+            <div className="header-navbar__items">
+              <a className="header-navbar__items__home" href={{ href: "#" }}>
+                <p>Home</p>
+                <i class="fal fa-thin fa-angle-down"></i>
+              </a>
+
+              <a className="header-navbar__items__page" href={{ href: "#" }}>
+                <p>Page</p>
+              </a>
+              <a className="header-navbar__items__product" href={{ href: "#" }}>
+                <p>Product</p>
+              </a>
+              <a className="header-navbar__items__blog" href={{ href: "#" }}>
+                <p>Blog</p>
+              </a>
+              <a className="header-navbar__items__shop" href={{ href: "#" }}>
+                <p>Shop</p>
+              </a>
+              <a className="header-navbar__items__contact" href={{ href: "#" }}>
+                <p>Contact</p>
+              </a>
+            </div>
+
+            <div className="header-navbar__search">
+              <input></input>
+              <div className="header-navbar__search__square">
+                <i class="fal fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    )
+}
+export default Navbar;

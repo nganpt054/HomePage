@@ -1,0 +1,221 @@
+.content__leastblog {
+  justify-content: center;
+
+  h1 {
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 80px;
+    /* Text */
+
+    color: #151875;
+  }
+  &__leastblogs {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    justify-content: center;
+    column-gap: 56px;
+    margin-bottom: 115px;
+    &__blog {
+      height: 493px;
+      background: #ffffff;
+      /* shadow */
+
+      box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+      border-radius: 5px;
+      &__top {
+        display: flex;
+        &__place {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 29.92px;
+          img {
+            width: 11.33px;
+            height: 11.33px;
+            padding-right: 7.67px;
+          }
+          p {
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            line-height: 16px;
+
+            /* Text */
+
+            color: #151875;
+          }
+        }
+        &__time {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 9.17px;
+            height: 10.08px;
+            padding-right: 4.92px;
+          }
+          p {
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            line-height: 16px;
+
+            /* Text */
+
+            color: #151875;
+          }
+        }
+      }
+      h2 {
+        font-family: "Josefin Sans";
+        font-size: 18px;
+        line-height: 21px;
+
+        /* Text */
+
+        color: #151875;
+      }
+      h4 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+
+        color: #72718f;
+      }
+      h3 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+
+        text-decoration-line: underline;
+
+        /* Text */
+
+        color: #151875;
+      }
+    }
+    &__blogaction {
+      height: 493px;
+      background: #ffffff;
+      /* shadow */
+
+      box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+      border-radius: 5px;
+      &__top {
+        display: flex;
+        &__place {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 29.92px;
+          img {
+            width: 11.33px;
+            height: 11.33px;
+            padding-right: 7.67px;
+          }
+          p {
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            line-height: 16px;
+
+            /* Text */
+
+            color: #151875;
+          }
+        }
+        &__time {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 9.17px;
+            height: 10.08px;
+            padding-right: 4.92px;
+          }
+          p {
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            line-height: 16px;
+
+            /* Text */
+
+            color: #151875;
+          }
+        }
+      }
+      h2 {
+        font-family: "Josefin Sans";
+        font-size: 18px;
+        line-height: 21px;
+
+        /* pink */
+
+        color: #fb2e86;
+      }
+      h4 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 188% */
+
+        color: #72718f;
+      }
+      h3 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+
+        text-decoration-line: underline;
+
+        /* pink */
+
+        color: #fb2e86;
+      }
+    }
+  }
+}
+@media screen and (max-width: 47.9375em) {
+  .content__leastblog {
+    max-width: 98%;
+    &__leastblogs {
+      grid-template-columns: 96%;
+      height: auto;
+      margin-left: 10px;
+      &__blog {
+        img {
+          width: 90%;
+        }
+        &__top {
+          img {
+            width: 11.33px;
+            height: 11.33px;
+            padding-right: 7.67px px;
+          }
+        }
+      }
+      &__blogaction {
+        img {
+          width: 280px;
+        }
+        &__top {
+          img {
+            width: 11.33px;
+            height: 11.33px;
+            padding-right: 7.67px px;
+          }
+        }
+      }
+    }
+  }
+}

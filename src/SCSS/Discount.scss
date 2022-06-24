@@ -1,0 +1,209 @@
+.content__discount {
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    margin-top: 128px;
+    /* Text */
+
+    color: #151875;
+  }
+
+  &__info {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    max-width: 1214px;
+    height: 597px;
+    margin: 0 auto;
+    &__navbar {
+      display: flex;
+      position: absolute;
+      top: 7px;
+      right: 463px;
+      p {
+        padding-left: 26px;
+      }
+      &__1 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        /* identical to box height */
+
+        /* pink */
+
+        color: #fb2e86;
+      }
+      &__2 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+        /* Text */
+
+        color: #151875;
+      }
+      &__3 {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+        /* Text */
+
+        color: #151875;
+      }
+    }
+    &__text {
+      position: absolute;
+      left: 1px;
+      top: 140px;
+      h2 {
+        // position: absolute;
+        font-family: "Josefin Sans";
+        font-size: 35px;
+        line-height: 132%;
+        letter-spacing: 0.015em;
+        color: #151875;
+      }
+      h3 {
+        // position: absolute;
+        font-family: "Josefin Sans";
+        font-size: 21px;
+        line-height: 132%;
+        letter-spacing: 0.015em;
+        color: #fb2e86;
+      }
+      h4 {
+        // position: absolute;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #b7bacb;
+        width: 523px;
+        height: 49px;
+      }
+      &__list {
+        display: flex;
+        ul {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+          /* identical to box height, or 188% */
+
+          letter-spacing: 0.02em;
+
+          color: #b8b8dc;
+        }
+      }
+      button {
+        // position: absolute;
+        width: 200px;
+        height: 57px;
+        background-color: #fb2e86;
+        border-radius: 2px;
+        color: white;
+        border: none;
+        outline: none;
+        // margin-top: 248px ;
+      }
+    }
+    img {
+      position: absolute;
+      top:0;
+      right: 0;
+      bottom: 0;
+      width: 699px;
+      height: 599px;
+    }
+  }
+}
+@media  screen and (max-width:47.9375em) {
+  .content__discount{
+    max-width: 98%;
+    &__info{
+      height: 350px;
+      &__navbar{
+        max-width: 50%;
+        left: 4%;
+        p{
+          font-size: 15px;
+          line-height: 15px;
+        }
+      }
+      &__text{
+        max-width: 50%;
+        left: 15px;
+        top: 20%;
+        h2{
+          font-size: 20px;
+          line-height: 100%;
+        }
+        h3{
+          font-size: 15px;
+          line-height: 100%;
+        }
+        h4{
+          font-size: 11px;
+    line-height: 100%;
+    height: auto;
+    width: 100%;
+    letter-spacing: 0.025em;
+        }
+        &__list{
+          display: none;
+        }
+        button{
+          width: 80px;
+          height: 34px;
+        }
+      }
+      img{
+        max-width: 75%;
+        height: 90%;
+        top:0;
+        left: 40%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 48em) and(max-width:63.9375em){
+  .content__discount__info img {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+.content__discount__info__navbar {
+  // top: -40px;
+  // left: 16%;
+  width: 80%;
+  /* height: 21%; */
+}
+.content__discount__info__text {
+  max-width: 50%;
+  left: 15px;
+  top: 0%;
+  p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+}
