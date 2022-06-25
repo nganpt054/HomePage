@@ -177,7 +177,6 @@
         position: absolute;
         right: 6px;
         bottom: 2px;
-        
       }
     }
     &__right {
@@ -222,7 +221,7 @@
     }
   }
 }
-@media screen and (max-width:63.9375em) {
+@media screen and (max-width: 63.9375em) {
   .content__trending__allproducts {
     display: none;
   }
@@ -249,5 +248,19 @@
         }
       }
     }
+  }
+}
+@media screen and (min-width: 64em) and(max-width:92em) {
+  .content__trending__products {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    max-width: 98%;
+    margin: 0;
+    column-gap: 0;
+  }
+  .content__trending__allproducts {
+    max-width: 98%;
+    margin-top: 7%;
   }
 }

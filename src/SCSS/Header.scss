@@ -123,6 +123,9 @@
   display: none;
 }
 @media screen and(max-width:47.9375em) {
+  .header__header-top{
+    max-width: 98%;
+  }
   .header__header-top__left {
     display: none;
   }
