@@ -185,6 +185,14 @@
     }
   }
 }
+.content__leastblog__leastblogs__blog:hover {
+  h2{
+    color: #fb2e86;
+  }
+  h3{
+    color: #fb2e86;
+  }
+}
 @media screen and (max-width: 47.9375em) {
   .content__leastblog {
     max-width: 98%;

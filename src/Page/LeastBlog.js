@@ -23,10 +23,10 @@ function LeastBlog(){
               <h3>Read More</h3>
             </div>
 
-            <div className="content__leastblog__leastblogs__blogaction">
+            <div className="content__leastblog__leastblogs__blog">
               <img src="/images/2dcYhvbHV-M.svg"></img>
-              <div className="content__leastblog__leastblogs__blogaction__top">
-                <div className="content__leastblog__leastblogs__blogaction__top__place">
+              <div className="content__leastblog__leastblogs__blog__top">
+                <div className="content__leastblog__leastblogs__blog__top__place">
                   <img src="/images/Vector.svg"></img>
                   <p>SaberAli</p>
                 </div>
