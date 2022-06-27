@@ -10,12 +10,11 @@ function Header() {
           </label>
 
           <div className="header__header-top__left">
-            <a className="header__header-top__left__left" href={{ href: "#" }}>
+            <a className="header__header-top__left__left" href="#">
               <img src="mail.svg" alt=""></img>
               <p>mhhasanul@gmail.com</p>
             </a>
-
-            <a className="header__header-top__left__right" href={{ href: "#" }}>
+            <a className="header__header-top__left__right" href="#">
               <i className="fal fa-thin fa-phone-volume"></i>
               <p>(12345)67890</p>
             </a>
@@ -66,14 +65,13 @@ function Header() {
             <i class="far fa-times"></i>
           </label>
           <div>
-          <a className="header-navbar__name" href={{ href: "#" }}>
+            <a className="header-navbar__name" href={{ href: "#" }}>
               <p>Hekto</p>
             </a>
           </div>
           <div>
-            <a className="header-navbar__items__home" href={{ href: "#" }}
-            >
-              <p style={{marginLeft:"22px"}}>Home</p>
+            <a className="header-navbar__items__home" href={{ href: "#" }}>
+              <p style={{ marginLeft: "22px" }}>Home</p>
               <i class="fal fa-thin fa-angle-down"></i>
             </a>
 

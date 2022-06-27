@@ -20,6 +20,8 @@ import Footer from "./Page/Footer";
 import Header from "./Page/Header";
 import Navbar from "./Page/Navbar";
 import Slide from "./Page/Slide";
+import ShopGrid from "./ShopGrid/ShopGrid";
+
 
 function App() {
   return (

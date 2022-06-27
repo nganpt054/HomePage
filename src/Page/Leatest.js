@@ -29,15 +29,23 @@ function Leatest(){
             </a>
           </div>
           <div className="content__leatest__products">
-            <div className="content__leatest__products__product">
-              <div className="content__leatest__products__product__images">
+            <div className="content__leatest__products__product1">
+              <div className="content__leatest__products__product1__images">
+              <div className="content__leatest__products__product1__images__vector">
+                    <img src="/images/Group 28.svg"></img>
+
+                    <img src="/images/uil_heart-alt.svg"></img>
+
+                    <img src="/images/uil_search-plus.svg"></img>
+                  </div>
                 <img src="./images/image1166.svg" alt=""></img>
+                
               </div>
-              <div className="content__leatest__products__product__info">
-                <h2 className="content__leatest__products__product__info__title">
+              <div className="content__leatest__products__product1__info">
+                <h2 className="content__leatest__products__product1__info__title">
                   Cantilever chair
                 </h2>
-                <div className="content__leatest__products__product__info__code">
+                <div className="content__leatest__products__product1__info__code">
                   <p>$42.00</p>
                   <span>
                     $65.00
@@ -51,17 +59,21 @@ function Leatest(){
                 className="content__leatest__products__product1__images"
                 style={{ backgroundColor: "#FFFFFF" }}
               >
-                <img src="./images/image15.svg" alt=""></img>
-                <div className="content__leatest__products__product1__images__sale">
-                  <img src="/images/Group 27.svg"></img>
-                  <div className="content__leatest__products__product1__images__vector">
+                <div className="content__leatest__products__product1__images__vector">
                     <img src="/images/Group 28.svg"></img>
 
                     <img src="/images/uil_heart-alt.svg"></img>
 
                     <img src="/images/uil_search-plus.svg"></img>
                   </div>
-                </div>
+                {/* <div className="content__leatest__products__product1__images__sale">
+                  <img src="/images/Group 27.svg"></img>
+                  
+                </div> */}
+                
+                <img src="./images/image15.svg" alt=""></img>
+                
+                
               </div>
               <div className="content__leatest__products__product1__info">
                 <h2 className="content__leatest__products__product1__info__title">
@@ -78,15 +90,22 @@ function Leatest(){
               
             </div>
 
-            <div className="content__leatest__products__product">
-              <div className="content__leatest__products__product__images">
+            <div className="content__leatest__products__product1">
+              <div className="content__leatest__products__product1__images">
+              <div className="content__leatest__products__product1__images__vector">
+                    <img src="/images/Group 28.svg"></img>
+
+                    <img src="/images/uil_heart-alt.svg"></img>
+
+                    <img src="/images/uil_search-plus.svg"></img>
+                  </div>
                 <img src="./images/image1168.svg" alt=""></img>
               </div>
-              <div className="content__leatest__products__product__info">
-                <h2 className="content__leatest__products__product__info__title">
+              <div className="content__leatest__products__product1__info">
+                <h2 className="content__leatest__products__product1__info__title">
                   Cantilever chair
                 </h2>
-                <div className="content__leatest__products__product__info__code">
+                <div className="content__leatest__products__product1__info__code">
                   <p>$42.00</p>
                   <span>
                     $65.00
@@ -95,15 +114,22 @@ function Leatest(){
               </div>
             </div>
 
-            <div className="content__leatest__products__product">
-              <div className="content__leatest__products__product__images">
+            <div className="content__leatest__products__product1">
+              <div className="content__leatest__products__product1__images">
+              <div className="content__leatest__products__product1__images__vector">
+                    <img src="/images/Group 28.svg"></img>
+
+                    <img src="/images/uil_heart-alt.svg"></img>
+
+                    <img src="/images/uil_search-plus.svg"></img>
+                  </div>
                 <img src="./images/image23.svg" alt=""></img>
               </div>
-              <div className="content__leatest__products__product__info">
-                <h2 className="content__leatest__products__product__info__title">
+              <div className="content__leatest__products__product1__info">
+                <h2 className="content__leatest__products__product1__info__title">
                   Cantilever chair
                 </h2>
-                <div className="content__leatest__products__product__info__code">
+                <div className="content__leatest__products__product1__info__code">
                  <p> $42.00</p>
                   <span>
                     $65.00
@@ -112,15 +138,22 @@ function Leatest(){
               </div>
             </div>
 
-            <div className="content__leatest__products__product">
-              <div className="content__leatest__products__product__images">
+            <div className="content__leatest__products__product1">
+              <div className="content__leatest__products__product1__images">
+              <div className="content__leatest__products__product1__images__vector">
+                    <img src="/images/Group 28.svg"></img>
+
+                    <img src="/images/uil_heart-alt.svg"></img>
+
+                    <img src="/images/uil_search-plus.svg"></img>
+                  </div>
                 <img src="./images/image_32.svg" alt=""></img>
               </div>
-              <div className="content__leatest__products__product__info">
-                <h2 className="content__leatest__products__product__info__title">
+              <div className="content__leatest__products__product1__info">
+                <h2 className="content__leatest__products__product1__info__title">
                   Cantilever chair
                 </h2>
-                <div className="content__leatest__products__product__info__code">
+                <div className="content__leatest__products__product1__info__code">
                   <p>$42.00</p>
                   <span>
                     $65.00
@@ -129,15 +162,22 @@ function Leatest(){
               </div>
             </div>
 
-            <div className="content__leatest__products__product">
-              <div className="content__leatest__products__product__images">
+            <div className="content__leatest__products__product1">
+              <div className="content__leatest__products__product1__images">
+              <div className="content__leatest__products__product1__images__vector">
+                    <img src="/images/Group 28.svg"></img>
+
+                    <img src="/images/uil_heart-alt.svg"></img>
+
+                    <img src="/images/uil_search-plus.svg"></img>
+                  </div>
                 <img src="./images/image_3.svg" alt=""></img>
               </div>
-              <div className="content__leatest__products__product__info">
-                <h2 className="content__leatest__products__product__info__title">
+              <div className="content__leatest__products__product1__info">
+                <h2 className="content__leatest__products__product1__info__title">
                   Cantilever chair
                 </h2>
-                <div className="content__leatest__products__product__info__code">
+                <div className="content__leatest__products__product1__info__code">
                   <p>$42.00</p>
                   <span>
                     $65.00
@@ -145,6 +185,11 @@ function Leatest(){
                 </div>
               </div>
             </div>
+           
+            
+
+
+    
           </div>
         </div>
     )

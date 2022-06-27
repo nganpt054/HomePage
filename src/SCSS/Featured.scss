@@ -29,6 +29,9 @@
         height: 236px;
         position: relative;
         justify-self: center;
+        img{
+          margin-top: 10%;
+        }
         button {
           position: absolute;
           display: none;
@@ -48,6 +51,7 @@
           color: #ffffff;
         }
         &__vector {
+          left: 7%;
           display: none;
         }
       }
@@ -173,6 +177,7 @@
   .content__featured__products__product__images img {
     width: 150px;
     height: 150px;
+    margin: 0;
   }
   .content__featured__products__product__images__vector img {
     width: 30%;
