@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import ShopGrid from "../ShopGrid";
+import Home from "../Home";
 function Navbar(){
     return(
         <div className="navbar">
@@ -7,14 +10,18 @@ function Navbar(){
             </a>
 
             <div className="header-navbar__items">
+              <Link to="/">
               <a className="header-navbar__items__home" href={{ href: "#" }}>
                 <p>Home</p>
                 <i class="fal fa-thin fa-angle-down"></i>
               </a>
+              </Link>
 
-              <a className="header-navbar__items__page" href={{ href: "#" }}>
+              <Link to="/shop">
+              <a className="header-navbar__items__page" >
                 <p>Page</p>
               </a>
+              </Link>
               <a className="header-navbar__items__product" href={{ href: "#" }}>
                 <p>Product</p>
               </a>

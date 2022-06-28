@@ -20,27 +20,21 @@ import Footer from "./Page/Footer";
 import Header from "./Page/Header";
 import Navbar from "./Page/Navbar";
 import Slide from "./Page/Slide";
-import {Routes, Route, BrowserRouter} from "react-router-dom"
-import Home from "./Home"
-import ShopGrid from "./ShopGrid";
 
 
-function App() {
+
+function Home() {
   return (
 
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/shop" element={<ShopGrid/>}/>
-    </Routes>
-  );
-}
-
-export default App;
-
-
-{/* <Header/>
+     <>
+     <Header/>
         <Navbar/>
     
       <Slide/>
       <Content/>
-      <Footer/> */}
+      <Footer/> 
+     </>
+  );
+}
+
+export default Home;

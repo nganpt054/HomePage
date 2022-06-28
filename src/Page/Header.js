@@ -1,5 +1,5 @@
 import React from "react";
-// import "Header.scss"
+import { Link, NavLink } from "react-router-dom";
 function Header() {
   return (
     <>
@@ -10,10 +10,13 @@ function Header() {
           </label>
 
           <div className="header__header-top__left">
-            <a className="header__header-top__left__left" href="#">
+          {/* <Link to="/ShopGrid"> */}
+          <a className="header__header-top__left__left" href="#">
               <img src="mail.svg" alt=""></img>
               <p>mhhasanul@gmail.com</p>
             </a>
+          {/* </Link> */}
+            
             <a className="header__header-top__left__right" href="#">
               <i className="fal fa-thin fa-phone-volume"></i>
               <p>(12345)67890</p>
