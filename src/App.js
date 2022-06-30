@@ -14,15 +14,13 @@ import "./SCSS/Discount.scss"
 import "./SCSS/TopCategories.scss"
 import "./SCSS/GetLeast.scss"
 import "./SCSS/LeastBlog.scss"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-import Content from "./Page/Content";
-import Footer from "./Page/Footer";
-import Header from "./Page/Header";
-import Navbar from "./Page/Navbar";
-import Slide from "./Page/Slide";
+
 import {Routes, Route, BrowserRouter} from "react-router-dom"
-import Home from "./Home"
-import ShopGrid from "./ShopGrid";
+import Home from "./MainPage/Home"
+import ShopGrid from "./MainPage/ShopGrid";
 
 
 function App() {
@@ -38,9 +36,3 @@ function App() {
 export default App;
 
 
-{/* <Header/>
-        <Navbar/>
-    
-      <Slide/>
-      <Content/>
-      <Footer/> */}

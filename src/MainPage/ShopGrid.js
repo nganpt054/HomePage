@@ -1,6 +1,6 @@
-import Footer from "../Page/Footer";
-import Header from "../Page/Header";
-import Navbar from "../Page/Navbar";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
 function ShopGrid(){
     return(
         <>

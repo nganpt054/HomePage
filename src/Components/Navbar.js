@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import ShopGrid from "../ShopGrid";
-import Home from "../Home";
+
 function Navbar(){
     return(
         <div className="navbar">

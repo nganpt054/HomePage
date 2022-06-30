@@ -1,3 +1,6 @@
+#featured__phone {
+  display: none;
+}
 .content__featured {
   text-align: center;
   h1 {
@@ -10,114 +13,121 @@
   }
   &__products {
     display: grid;
-    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-columns: 1080px;
+    // display: inline;
     justify-content: center;
     column-gap: 1%;
-    height: 361px;
+    height: auto;
     margin: auto 376px;
     margin-left: 376px;
-    &__product {
-      height: 361px;
+
+    &__1 {
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      &__product {
+        height: 361px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
 
-      background: #ffffff;
-      box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-      &__images {
-        background: #f6f7fb;
-        height: 236px;
-        position: relative;
-        justify-self: center;
-        img{
-          margin-top: 10%;
-        }
-        button {
-          position: absolute;
-          display: none;
-          background: #08d15f;
-          border-radius: 2px;
-          outline: none;
-          border: none;
-          bottom: 10px;
-          left: 50%;
-          transform: translate(-50%);
-          width: 94px;
-          height: 29px;
-          font-family: "Josefin Sans";
-          font-size: 12px;
-          line-height: 14px;
-
-          color: #ffffff;
-        }
-        &__vector {
-          left: 7%;
-          display: none;
-        }
-      }
-      &__info {
-        height: 125px;
-        h2 {
-          font-family: "Lato";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 22px;
-          height: 22px;
-          /* identical to box height */
-
-          /* pink */
-
-          color: #fb2e86;
-        }
-        &__active {
-          display: flex;
-          align-items: center;
-          text-align: center;
-          justify-content: center;
-          margin: 12px 0px;
-          &__active1 {
-            background: #05e6b7;
-            border-radius: 10px;
-            width: 8px;
-            height: 4px;
-            margin-left: 5px;
+        background: #ffffff;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        &__images {
+          background: #f6f7fb;
+          height: 236px;
+          position: relative;
+          justify-self: center;
+          img {
+            margin-top: 10%;
           }
-          &__active2 {
-            background: #f701a8;
-            border-radius: 10px;
-            width: 8px;
-            height: 4px;
-            margin-left: 5px;
+          button {
+            position: absolute;
+            display: none;
+            background: #08d15f;
+            border-radius: 2px;
+            outline: none;
+            border: none;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 94px;
+            height: 29px;
+            font-family: "Josefin Sans";
+            font-size: 12px;
+            line-height: 14px;
+
+            color: #ffffff;
           }
-          &__active3 {
-            background: #00009d;
-            border-radius: 10px;
-            width: 8px;
-            height: 4px;
-            margin-left: 5px;
+          &__vector {
+            left: 7%;
+            display: none;
           }
         }
-        &__code {
-          font-family: "Josefin Sans";
-          font-size: 14px;
-          line-height: 16px;
+        &__info {
+          height: 125px;
+          h2 {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            height: 22px;
+            /* identical to box height */
 
-          /* Text */
+            /* pink */
 
-          color: #151875;
-        }
-        &__price {
-          font-family: "Lato";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          /* identical to box height */
+            color: #fb2e86;
+          }
+          &__active {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin: 12px 0px;
+            &__active1 {
+              background: #05e6b7;
+              border-radius: 10px;
+              width: 8px;
+              height: 4px;
+              margin-left: 5px;
+            }
+            &__active2 {
+              background: #f701a8;
+              border-radius: 10px;
+              width: 8px;
+              height: 4px;
+              margin-left: 5px;
+            }
+            &__active3 {
+              background: #00009d;
+              border-radius: 10px;
+              width: 8px;
+              height: 4px;
+              margin-left: 5px;
+            }
+          }
+          &__code {
+            font-family: "Josefin Sans";
+            font-size: 14px;
+            line-height: 16px;
 
-          /* Text */
+            /* Text */
 
-          color: #151875;
+            color: #151875;
+          }
+          &__price {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+            /* Text */
+
+            color: #151875;
+          }
         }
       }
     }
@@ -129,11 +139,11 @@
     }
   }
 }
-.content__featured__products__product:hover {
-  .content__featured__products__product__info {
+.content__featured__products__1__product:hover {
+  .content__featured__products__1__product__info {
     background-color: rgb(47, 26, 196);
   }
-  .content__featured__products__product__images__vector {
+  .content__featured__products__1__product__images__vector {
     position: absolute;
     display: flex;
     text-align: center;
@@ -150,8 +160,14 @@
 }
 
 @media screen and (max-width: 48em) {
+  #featured__desktop {
+    display: none;
+  }
+  
   .content__featured {
-    max-width: 98%;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .content__featured h1 {
     font-size: 30px;
@@ -161,41 +177,45 @@
   }
   .content__featured__products {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 300px;
     height: auto;
     justify-content: center;
+    align-items: center;
     column-gap: 10px;
     row-gap: 30px;
     margin: auto 0;
+    // &__1 {
+
+    // }
   }
-  .content__featured__products__product {
+  .content__featured__products__1__product {
     height: 240px;
   }
-  .content__featured__products__product__images {
+  .content__featured__products__1__product__images {
     height: 160px;
   }
-  .content__featured__products__product__images img {
+  .content__featured__products__1__product__images img {
     width: 150px;
     height: 150px;
-    margin: 0;
+    margin: 0 auto;
   }
-  .content__featured__products__product__images__vector img {
+  .content__featured__products__1__product__images__vector img {
     width: 30%;
     height: 100%;
   }
-  .content__featured__products__product__info {
+  .content__featured__products__1__product__info {
     height: 80px;
   }
-  .content__featured__products__product__info h2 {
+  .content__featured__products__1__product__info h2 {
     font-size: 11px;
     line-height: 11px;
     height: 10px;
   }
-  .content__featured__products__product__info__code {
+  .content__featured__products__1__product__info__code {
     font-size: 9px;
     line-height: 9px;
   }
-  .content__featured__products__product__info__price {
+  .content__featured__products__1__product__info__price {
     font-size: 9px;
     line-height: 9px;
   }
@@ -203,13 +223,18 @@
   .content__featured__footer {
     display: none;
   }
+  #featured__phone {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
 }
 @media screen and (min-width: 48.0625em) and(max-width:92em) {
   .content__featured {
     margin-bottom: 20%;
     &__products {
       max-width: 98%;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 90%;
       row-gap: 10%;
       height: auto;
       margin: 0;

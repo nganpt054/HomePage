@@ -1,3 +1,6 @@
+#topcategories__mobile{
+  display: none;
+}
 .content__topcategories {
   h1 {
     font-family: "Josefin Sans";
@@ -11,64 +14,69 @@
   }
   &__categories {
     display: grid;
-    grid-template-columns: 269px 269px 269px 269px;
+    grid-template-columns: 1080px;
     column-gap: 39px;
     justify-content: center;
-    &__category {
+    &__1{
       display: flex;
-      flex-direction: column;
-      align-items: center;
       justify-content: center;
-      &__image {
-        position: relative;
-        width: 269px;
-        height: 269px;
+      gap: 15px;
+      &__category {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        background: #f6f7fb;
-        border-radius: 50%;
-        
-        button{
-          display: none;
-        }
-        img {
-          object-fit: cover;
-        }
-        
-      }
-      &__text {
-        &__title {
+        justify-content: center;
+        &__image {
+          position: relative;
+          width: 269px;
+          height: 269px;
           display: flex;
           justify-content: center;
-          &__1 {
-            font-family: "Josefin Sans";
-            font-size: 20px;
-            line-height: 23px;
-            color: #151875;
+          align-items: center;
+          background: #f6f7fb;
+          border-radius: 50%;
+          
+          button{
+            display: none;
           }
-          &__2 {
-            font-family: "Josefin Sans";
-            font-size: 20px;
-            line-height: 23px;
-            color: #151875;
+          img {
+            object-fit: cover;
           }
-          &__3 {
-            font-family: "Josefin Sans";
-            font-size: 20px;
-            line-height: 23px;
-            color: #151875;
-          }
+          
         }
-        &__price {
-          p {
-            font-family: "Josefin Sans";
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            /* Text */
-
-            color: #151875;
+        &__text {
+          &__title {
+            display: flex;
+            justify-content: center;
+            &__1 {
+              font-family: "Josefin Sans";
+              font-size: 20px;
+              line-height: 23px;
+              color: #151875;
+            }
+            &__2 {
+              font-family: "Josefin Sans";
+              font-size: 20px;
+              line-height: 23px;
+              color: #151875;
+            }
+            &__3 {
+              font-family: "Josefin Sans";
+              font-size: 20px;
+              line-height: 23px;
+              color: #151875;
+            }
+          }
+          &__price {
+            p {
+              font-family: "Josefin Sans";
+              font-size: 16px;
+              line-height: 19px;
+              text-align: center;
+              /* Text */
+  
+              color: #151875;
+            }
           }
         }
       }
@@ -93,8 +101,8 @@
     }
   }
 }
-.content__topcategories__categories__category:hover {
-  .content__topcategories__categories__category__image {
+.content__topcategories__categories__1__category:hover {
+  .content__topcategories__categories__1__category__image {
     position: relative;
         // width: 269px;
         // height: 269px;
@@ -125,6 +133,12 @@
   }
 }
 @media screen and(max-width:48em) {
+  #topcategories__desktop{
+    display: none;
+  }
+  #topcategories__mobile{
+    display: block;
+  }
   .content__topcategories {
     width: 98%;
     h1 {
@@ -136,29 +150,34 @@
     }
     &__categories {
       display: grid;
-      grid-template-columns: 48% 48%;
+      grid-template-columns: 100%;
       column-gap: 10px;
       justify-content: center;
-      margin-left: 10px;
-      &__category {
-        justify-content: center;
-        align-items: center;
+      margin:auto;
+      &__1{
         display: flex;
-        flex-direction: column;
-        &__image {
-          width: 150px;
-          height: 150px;
-          img {
-            width: 120px;
-            height: 120px;
+        justify-content: center;
+        margin: auto;
+        &__category {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          &__image {
+            width: 150px;
+            height: 150px;
+            img {
+              width: 120px;
+              height: 120px;
+            }
           }
-        }
-        &__text {
-          p {
-            font-size: 15px;
-            line-height: 15px;
-            color: #151875;
-            margin: 5px 0px;
+          &__text {
+            p {
+              font-size: 15px;
+              line-height: 15px;
+              color: #151875;
+              margin: 5px 0px;
+            }
           }
         }
       }
@@ -167,15 +186,16 @@
   }
 }
 @media screen and (min-width: 48.0625em) and (max-width: 92em) {
-  .content__topcategories__categories__category__image {
+  .content__topcategories__categories__1__category__image {
     max-width: 200px;
     height: 200px;
   }
   
   .content__topcategories__categories {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns:100%;
      column-gap: 0; 
     justify-content: center;
+    margin: auto;
 }
 }
