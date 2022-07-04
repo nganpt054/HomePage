@@ -122,8 +122,8 @@
 #leatest__mobile{
   display: none;
 }
-.content__leatest__products__product1:hover {
-  .content__leatest__products__product1__images__vector {
+.content__leatest__products__1__product1:hover {
+  .content__leatest__products__1__product1__images__vector {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -201,8 +201,8 @@
   display: none;
 }
   .content__leatest__products__1__product1__images__vector img {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
   .content__leatest__products {
     grid-template-columns: 90%;

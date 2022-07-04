@@ -85,16 +85,16 @@ function Trending() {
             <p>23% off in all products</p>
             <a href="#">Shop Now</a>
           </div>
-          <img src="./images/image1162.svg"></img>
+          <img src="./images/image1162.svg" alt=""></img>
         </div>
         <div className="content__trending__allproducts__center">
           <div className="content__trending__allproducts__center__title">
             <p>23% off in all products</p>
-            <a href="#">View Collection</a>
+            <a  href="#" >View Collection</a>
           </div>
           <img
             className="content__trending__allproducts__center__images"
-            src="./images/image1161.svg"
+            src="./images/image1161.svg" alt=""
           ></img>
         </div>
         <div className="content__trending__allproducts__right">

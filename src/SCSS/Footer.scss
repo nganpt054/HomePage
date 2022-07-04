@@ -2,6 +2,8 @@
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
+    // padding-left:auto;
+    // padding-right: auto;
     &__top {
       height: auto;
       background-color: #eeeffb;
@@ -141,6 +143,9 @@
     }
   }
   @media screen and(max-width:37.5em) {
+    .footer__bot__info {
+      justify-content: space-around;
+    }
     .footer{
       &__top{
         height: auto;

@@ -16,35 +16,60 @@ function Featured() {
     slidesToScroll: 1,
     accessibility: true,
     rows: 1,
-    slidePerShow:1,
+  
     autoplaySpeed: 0,
   };
   return (
     <div className="content__featured">
       <h1 className="content__featured__title">Featured Products</h1>
       <div className="content__featured__products">
-        <div >
-        <Slider {...settings}>
-          {fakeimg.map((img) => (
+        <div id="featured__desktop">
+          <Slider {...settings}>
             <>
-              <div className="content__featured__products__1" id="featured__desktop">
-                <FeaturedProduct img={img}></FeaturedProduct>
-
-                <FeaturedProduct img={img}></FeaturedProduct>
-
-                <FeaturedProduct img={img}></FeaturedProduct>
-
-                <FeaturedProduct img={img}></FeaturedProduct>
-              </div>
-              
-              <div className="content__featured__products__1" id="featured__phone">
-                <FeaturedProduct img={img}></FeaturedProduct>
-
-                <FeaturedProduct img={img}></FeaturedProduct>
+              <div className="content__featured__products__1">
+                {fakeimg.map((img,index) =>(<FeaturedProduct key={index} img={img}></FeaturedProduct>))}
+                
               </div>
             </>
-          ))}
-        </Slider>
+            <>
+              <div className="content__featured__products__1">
+              {fakeimg.map(img=>(<FeaturedProduct img={img}></FeaturedProduct>))}
+              </div>
+            </>
+            <>
+              <div className="content__featured__products__1">
+              {fakeimg.map(img=>(<FeaturedProduct img={img}></FeaturedProduct>))}
+              </div>
+            </>
+          </Slider>
+        </div>
+        <div id="featured__mobile">
+          <Slider {...settings}>
+            <>
+              <div className="content__featured__products__1">
+                <FeaturedProduct img="./images/image1168.svg"></FeaturedProduct>
+                <FeaturedProduct img="./images/image1.svg"></FeaturedProduct>
+              </div>
+            </>
+            <>
+              <div className="content__featured__products__1">
+                <FeaturedProduct img="./images/image1169.svg"></FeaturedProduct>
+                <FeaturedProduct img="./images/image3.svg"></FeaturedProduct>
+              </div>
+            </>
+            <>
+              <div className="content__featured__products__1">
+                <FeaturedProduct img="./images/image1168.svg"></FeaturedProduct>
+                <FeaturedProduct img="./images/image1.svg"></FeaturedProduct>
+              </div>
+            </>
+            <>
+              <div className="content__featured__products__1">
+                <FeaturedProduct img="./images/image1169.svg"></FeaturedProduct>
+                <FeaturedProduct img="./images/image3.svg"></FeaturedProduct>
+              </div>
+            </>
+          </Slider>
         </div>
       </div>
     </div>
