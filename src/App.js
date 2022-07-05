@@ -14,6 +14,7 @@ import "./SCSS/Discount.scss"
 import "./SCSS/TopCategories.scss"
 import "./SCSS/GetLeast.scss"
 import "./SCSS/LeastBlog.scss"
+import "./SCSS/Navigation.scss"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -21,6 +22,8 @@ import "slick-carousel/slick/slick-theme.css";
 import {Routes, Route, BrowserRouter} from "react-router-dom"
 import Home from "./MainPage/Home"
 import ShopGrid from "./MainPage/ShopGrid";
+import ShoppingCurt from "./MainPage/ShoppingCurt";
+import Error from "./MainPage/Error";
 
 
 function App() {
@@ -29,6 +32,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/shop" element={<ShopGrid/>}/>
+      <Route path="/shopping" element={<ShoppingCurt/>}/>
+      <Route path="/error" element={<Error/>}/>
     </Routes>
   );
 }

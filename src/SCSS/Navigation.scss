@@ -1,0 +1,53 @@
+.navigation {
+  max-width: 1920px;
+  height: 286px;
+  background: #f6f5ff;
+  position: relative;
+  &__title {
+    font-family: "Josefin Sans";
+    font-size: 36px;
+    line-height: 42px;
+    color: #101750;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+  }
+  &__nav {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    top: 40%;
+    left: 15%;
+    h1 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      height: 16px;
+      text-align: center;
+      margin: 0;
+      margin-left: 15px;
+      color: #000000;
+    }
+    h2 {
+      margin: 0;
+      margin-left: 15px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      height: 16px;
+      
+  
+      /* pink */
+  
+      color: #fb2e86;
+    }
+  }
+}
+
+

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export default function Slide() {
-  const number=["1","2","3","4"]
+
   var settings = {
     dots: true,
     infinite: true,
@@ -16,7 +16,7 @@ export default function Slide() {
   return (
     
       <Slider {...settings}>
-      {number.map((slide,index)=>(
+      {Array(4).fill().map((slide,index)=>(
         <div index={index} className="slidecontainer">
         <div className="slide">
           <div className="slide__1">
